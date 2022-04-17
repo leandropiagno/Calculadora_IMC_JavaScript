@@ -1,13 +1,24 @@
+//Calculo de IMC.
+
 const btn = document.querySelector("#send");
-const view = document.getElementById("#resultado");
 
 
-btn.addEventListener("click", function(){
+btn.addEventListener("click", function(e){
+    e.preventDefault();
+
     const nome = document.querySelector("#peso");
     const nome2 = document.querySelector("#altura");
     const value = (nome.value/(nome2.value**2))
-    const view = document.getElementById("resultado").innerHTML = value;
+
+    document.getElementById("resultado").innerHTML = value.toFixed(1);
+
+    
 
 });
+
+
+
+
+
 
 
