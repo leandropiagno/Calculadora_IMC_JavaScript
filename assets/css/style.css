@@ -77,3 +77,8 @@ span{
     margin-bottom: 10px;
     
 }
+
+#send{
+    background-color: rgb(179, 131, 224);
+    color: #fff;
+}
