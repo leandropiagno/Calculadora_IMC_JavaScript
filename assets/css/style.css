@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Roboto+Condensed:wght@400;700 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue','cursiva','Roboto Condensed', 'sem serifa';
+}
+
+body{
+    background-size: cover;
+    background-image: url(/assets/img/Fitness\ \(18\).jpg);
+    overflow: hidden;
+    
+}
+
+h1{
+    margin-bottom: 10px;
+    margin-left: px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 15%;
+
+    
+}
+
+.line01{
+    display: block;
+    float: left;
+    text-align: center;
+    width: 13%;
+    
+}
+
+.line02{
+   display: block;
+   float: left;
+   text-align: center;
+   width: 13%;
+    
+}
+.b01{
+    background-color: rgb(90, 124, 89);
+    color: #fff;
+}
+p{
+    margin-top: 3px;
+    margin-right: 3px;
+    background-color: rgb(212, 212, 212);
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.digitePesoAltura{
+    display: flex;
+    align-items: center;
+    margin-top: 260px;
+}
+
+input{
+    margin-right: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    float: left;
+    text-align: center;
+    width: 12%;
+}
+
+span{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    
+}
